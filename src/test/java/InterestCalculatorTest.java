@@ -28,7 +28,7 @@ public class InterestCalculatorTest {
         Double percentageInterest = 10.0;
         Double timeInYears = 5.0;
 
-        assertThat(interestCalculator.calculateSimpleInterest(principal, percentageInterest, timeInYears), is(50000.0));
+        assertThat(interestCalculator.calculateSimpleInterest(principal, percentageInterest, timeInYears), is(60000.0));
     }
 
     @Test
